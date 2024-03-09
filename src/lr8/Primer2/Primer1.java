@@ -1,4 +1,4 @@
-package lr8;
+package lr8.Primer2;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
