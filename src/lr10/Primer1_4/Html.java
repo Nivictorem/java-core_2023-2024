@@ -1,4 +1,4 @@
-package lr10.Primer1;
+package lr10.Primer1_4;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;

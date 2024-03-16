@@ -1,4 +1,4 @@
-package lr10.Primer1;
+package lr10.Primer1_4;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
