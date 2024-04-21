@@ -1,10 +1,12 @@
 package lr11;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 //10.	Напишите функцию, которая принимает на вход список целых чисел
 // и возвращает новый список, содержащий только те числа, которые меньше заданного значения.
 public class Task10 {
+
     public static void main(String[] args) {
         int[] arr = new int[10];
         for (int i =0; i < arr.length; i++)
