@@ -3,7 +3,7 @@ package Project_1_Course;
 import java.io.*;
 import java.util.*;
 
-public class Test {
+public class CourseProject {
     static int[][] matrixWeight = {
             {Integer.MAX_VALUE, 25, 40, 31, 27},
             {5, Integer.MAX_VALUE, 17, 30, 25},
@@ -73,7 +73,7 @@ public class Test {
     }
     public static void SetMatrixWieght() throws IOException
     {
-        System.out.println("Использовать матрицу весов поумолчанию?");
+        System.out.println("Использовать матрицу весов по умолчанию?");
         Scanner in = new Scanner(System.in);
         if(in.nextLine().equalsIgnoreCase("да"))
         {
@@ -81,6 +81,13 @@ public class Test {
         }
         ArrayList<ArrayList<Integer>> matrixWeights = new ArrayList<>();
         String fName = "C:\\Users\\Ник\\Desktop\\Учеба в урфу\\Программирование\\MatrixWeight.txt";
+        System.out.println("Использовать путь файла весов по умолчанию?");
+        System.out.println("Путь: " + fName);
+        if(in.nextLine().equalsIgnoreCase("нет"))
+        {
+            System.out.println("Введите путь к файлу");
+            fName = in.nextLine();
+        }
         File fIn = new File(fName);
         BufferedReader br = null;
         try

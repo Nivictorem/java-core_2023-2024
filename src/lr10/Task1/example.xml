@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pets>
+                
+    
+    
+    
+    
+    <pet>
+                        
+        
+        <name>Никита</name>
+                        
+        
+        <age>2</age>
+                        
+        
+        <kind>ывыв</kind>
+                    
+    
+    </pet>
+        
+
+    <pet>
+        <name>Никита</name>
+        <age>18</age>
+        <kind>а</kind>
+    </pet>
+</pets>
